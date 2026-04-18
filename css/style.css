@@ -121,6 +121,14 @@ header h1 {
   left: 100%;
 }
 
+.decoracao-fundo {
+  position: absolute;
+  width: 50%;
+  left: 48%;
+  mix-blend-mode: color-dodge;
+  opacity: 0.8;
+  pointer-events: none;
+}
 .slide.ativo {
   transition: left 0.8s;
   opacity: 1;
