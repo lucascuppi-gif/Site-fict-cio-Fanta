@@ -238,40 +238,44 @@ header h1 {
     display: none;
   }
   .header-nav li a {
-    font-size: 12px;    
-    white-space: nowrap; 
+    font-size: 12px;
+    white-space: nowrap;
   }
+}
+.slide {
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 80px 20px;
+}
 
-  }
-  .slide {
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    padding: 80px 20px;
-  }
+.slide-conteudo {
+  text-align: center;
+}
+.slide-conteudo h2 {
+  font-size: 42px;
+}
+.slide-conteudo p {
+  font-size: 16px;
+}
 
-  .slide-conteudo {
-    text-align: center;
-  }
-  .slide-conteudo h2 {
-    font-size: 42px;
-  }
-  .slide-conteudo p {
-    font-size: 16px;
-  }
+.slide-produto {
+  width: 100%;
+  margin-top: 20px;
+}
 
-  .slide-produto {
-    width: 100%;
-    margin-top: 20px;
-  }
+.slide-produto img {
+  width: 45vw;
+}
+.decoracao-fundo {
+  width: 80%;
+  left: 10%;
+  top: 20%;
+  opacity: 0.4;
+}
 
-  .slide-produto img {
-    width: 45vw;
-  }
-  .decoracao-fundo {
-    width: 80%;
-    left: 10%;
-    top: 20%;
-    opacity: 0.4;
+@media (max-width: 500px) {
+  .header-botoes {
+    display: none;
   }
 }
