@@ -83,7 +83,7 @@ header h1 {
 .header-botoes button {
   background: #ff6b00;
   color: #fff;
-  font-size: 16px;
+  font-vsize: 16px;
   border: none;
   padding: 10px 24px;
   border-radius: 40px;
@@ -143,7 +143,7 @@ header h1 {
 }
 
 .slide-produto img {
-  width: 50%;
+  width: 14vw;
   height: auto;
   filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.4));
   z-index: 2;
@@ -208,4 +208,70 @@ header h1 {
 
 .slide:nth-child(2) {
   background: #d9374b;
+}
+
+/* Responsividade */
+
+@media (max-width: 800px) {
+  header {
+    top: 5;
+  }
+  .header-menu {
+    min-width: 95vw;
+    gap: 15px;
+    padding: 12px 15px;
+    justify-content: space-around;
+  }
+  .header-nav ul {
+    gap: 10px;
+  }
+
+  header h1 {
+    font-size: 32px;
+  }
+
+  .header-botoes {
+    justify-content: center;
+    align-items: center;
+  }
+  .header-botoes button {
+    display: none;
+  }
+  .header-nav li a {
+    font-size: 12px;    
+    white-space: nowrap; 
+  }
+
+  }
+  .slide {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 20px;
+  }
+
+  .slide-conteudo {
+    text-align: center;
+  }
+  .slide-conteudo h2 {
+    font-size: 42px;
+  }
+  .slide-conteudo p {
+    font-size: 16px;
+  }
+
+  .slide-produto {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .slide-produto img {
+    width: 45vw;
+  }
+  .decoracao-fundo {
+    width: 80%;
+    left: 10%;
+    top: 20%;
+    opacity: 0.4;
+  }
 }
