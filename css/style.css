@@ -84,7 +84,7 @@ header h1 {
 .header-botoes button {
   background: #ff6b00;
   color: #fff;
-  font-vsize: 16px;
+  font-size: 16px;
   border: none;
   padding: 10px 24px;
   border-radius: 40px;
@@ -215,7 +215,7 @@ header h1 {
 
 @media (max-width: 800px) {
   header {
-    top: 5;
+    top: 5%;
   }
   .header-menu {
     min-width: 95vw;
